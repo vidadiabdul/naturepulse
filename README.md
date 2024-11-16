@@ -2,4 +2,3 @@
 - React.js
 - JavaScript
 - CSS
-- Node.js
