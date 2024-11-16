@@ -13,7 +13,7 @@ A platform for nature enthusiasts to explore and book activities.
 
 ## Technologies
 - React.js
-- Tailwind CSS
+- CSS
 - PHP backend
 
 ## Demo
