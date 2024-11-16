@@ -1,0 +1,109 @@
+.dest-ban {
+  position: relative;
+  background-image: url("https://naturepulse.xyz/assets/images/banner_pages/dest.jpg");
+  background-position: bottom;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dest-ban .container {
+  position: relative;
+  height: 100%;
+}
+
+.dest-ban .container h1 {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  color: white;
+  z-index: 3;
+}
+
+.shd {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(
+    0deg,
+    rgba(10, 22, 15, 1) 0%,
+    rgba(6 12 8 / 0%) 100%
+  );
+}
+
+.city-top {
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .city-top {
+    height: 200px;
+  }
+}
+
+.city-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.city-map {
+  padding: 50px;
+}
+
+.city-title{
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.city-desc{
+  font-size: 18px;
+  line-height: 1.8;
+  color: #434e49;
+}
+
+.wicon{
+  width: 100%;
+  height: 75px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.wicon img{
+  width: 60%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.w-card{
+  color: #434e49;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px 30px;
+  box-shadow: 0px 10px 15px 0px rgb(11 26 22 / 3%);
+  border: 1px solid #dbe3e1;
+}
+
+.w-temp {
+  font-size: 56px;
+  margin-bottom: 7px;
+  color: #1a543c;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+.w-detail{
+  color: #434e49;
+}
+
+.w-detail svg {
+  color: #345B5E;
+}
+

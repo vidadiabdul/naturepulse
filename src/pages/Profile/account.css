@@ -1,0 +1,23 @@
+.side-head {
+  height: 100px;
+  background-color: #345b5e;
+  color: #fff;
+  text-align: center;
+  align-content: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.side-menu .nav-link svg {
+  width: 22px;
+  height: 22px;
+  color: rgb(30 76 58);
+}
+
+
+
+.total{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #dbe3e1;
+}

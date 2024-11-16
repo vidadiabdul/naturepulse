@@ -1,0 +1,47 @@
+
+.cont-ban {
+    position: relative;
+    background-image: url("https://naturepulse.xyz/assets/images/banner_pages/contact.jpg");
+    background-position: top;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .cont-ban .container {
+    position: relative;
+    height: 100%;
+  }
+  
+  .cont-ban .container h1 {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    color: white;
+    z-index: 3;
+  }
+  
+  .shd {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(
+      0deg,
+      rgba(10, 22, 15, 1) 0%,
+      rgba(6 12 8 / 0%) 100%
+    );
+  }
+
+  .col-lg-7{
+    padding-left: 0;
+  }
+
+  .cont-info svg{
+    width: 22px;
+    height: auto;
+    margin-right: 10px;
+    color: #1E4028;
+  }

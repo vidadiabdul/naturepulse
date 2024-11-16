@@ -1,0 +1,61 @@
+h1 {
+  font-size: 36px;
+}
+
+.saimg {
+  border-radius: 10px;
+  max-height: 400px;
+  overflow: hidden;
+  display: flex;
+  
+}
+
+.asimg {
+  width: 100%;
+  /* height: 100%; */
+  overflow: hidden;
+}
+
+.asimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.enquiry {
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 4px 20px 0px rgba(11, 26, 22, 0.04);
+  -moz-box-shadow: 0px 4px 20px 0px rgba(11, 26, 22, 0.04);
+  box-shadow: 0px 4px 20px 0px rgba(11, 26, 22, 0.04);
+}
+
+.asidetop {
+  background-color: #446851;
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+}
+
+.asidetop svg {
+  width: 36px;
+  height: 36px;
+  color: #fff;
+}
+
+.asidetop h1 {
+  color: #fff;
+  padding: 20px 0;
+}
+
+.asidetop span {
+  font-size: 16px;
+  color: #fff;
+}
+
+form .btn {
+  background-color: #1e4028;
+  color: #fff;
+}
+

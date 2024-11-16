@@ -1,0 +1,292 @@
+.dest-card {
+  aspect-ratio: 1/1;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dest-card img {
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+  object-fit: cover;
+}
+
+.dest-card h4 {
+  position: absolute;
+  color: white;
+  left: 30px;
+  bottom: 20px;
+  z-index: 3;
+}
+
+.shd {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(
+    0deg,
+    rgba(10, 22, 15, 1) 0%,
+    rgba(6 12 8 / 0%) 100%
+  );
+  transition: 0.3s ease-in-out;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 10px;
+  border: 1px solid #dbe3e1;
+  -webkit-box-shadow: 0px 10px 50px 0px rgba(11, 26, 22, 0.1);
+  -moz-box-shadow: 0px 10px 50px 0px rgba(11, 26, 22, 0.1);
+  box-shadow: 0px 10px 50px 0px rgba(11, 26, 22, 0.1);
+  cursor: pointer;
+}
+
+.card-img-actions {
+  position: relative;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 10px 20px;
+}
+
+.card-img {
+  width: 350px;
+}
+
+.primg {
+  height: 220px;
+  overflow: hidden;
+}
+
+.primg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.card:hover img {
+  transform: scale(0.9);
+}
+
+#toprated {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+}
+
+#fav {
+  position: absolute;
+  width: 24px;
+  height: auto;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 10px;
+}
+
+.msimg {
+  aspect-ratio: 3/2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.msimg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.dest-list {
+  color: #000;
+}
+
+.dest-list img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dest-top {
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.att-top {
+  aspect-ratio: 4 / 3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.att-city {
+  font-weight: 600;
+  color: #1a543c;
+}
+
+.ms-city {
+  color: #1a543c;
+}
+
+.port-card {
+  aspect-ratio: 3/4;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.port-card img {
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+  object-fit: cover;
+}
+
+.port-card h4 {
+  position: absolute;
+  color: white;
+  left: 30px;
+  bottom: 5%;
+  z-index: 3;
+  transition: 0.3s ease-in-out;
+}
+
+.port-card p {
+  position: absolute;
+  color: white;
+  left: 30px;
+  bottom: -36%;
+  z-index: 3;
+  transition: 0.3s ease-in-out;
+  width: 85%;
+}
+
+.port-card:hover p {
+  bottom: 10px;
+}
+
+.port-card:hover h4 {
+  bottom: 40%;
+}
+
+.port-card:hover .shd {
+  height: 300px;
+}
+
+.card p {
+  margin: 0;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a543c;
+  margin-bottom: 0;
+}
+
+.fav-card {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 10px;
+  border: 1px solid #dbe3e1;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#favicon {
+  position: absolute;
+  width: 24px;
+  height: auto;
+  top: 15px;
+  left: 15px;
+  z-index: 10;
+}
+
+.fav-img {
+  aspect-ratio: 5/3;
+}
+
+.fav-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.fav-body {
+  padding: 20px;
+}
+
+.book-card {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 10px;
+  border: 1px solid #dbe3e1;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#deleteicon {
+  position: absolute;
+  width: 24px;
+  color: red;
+  height: auto;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+}
+
+#deleteicon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.book-img {
+  aspect-ratio: 1/1;
+}
+
+.book-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.book-body {
+  padding: 20px;
+}

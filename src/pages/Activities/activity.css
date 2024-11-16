@@ -1,0 +1,81 @@
+.act-cont {
+  /* margin-top: 100px; */
+  margin-bottom: 150px;
+}
+
+.list-group-item.active {
+  background-color: rgb(17, 58, 42);
+  border-color: rgb(17, 58, 42);
+}
+
+.nav-item {
+  padding-left: 0;
+}
+
+@media (max-width: 768px) {
+  .col-lg-2 {
+    width: 100%;
+  }
+
+  .nav {
+    overflow-x: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .nav-underline {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+
+.act-ban {
+  position: relative;
+  background-image: url("https://naturepulse.xyz/assets/images/banner_pages/acts.jpg");
+  background-position: center;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.act-ban .container {
+  position: relative;
+  height: 100%;
+}
+
+.act-ban .container h1 {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  color: white;
+  z-index: 3;
+}
+
+.shd {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(
+    0deg,
+    rgba(10, 22, 15, 1) 0%,
+    rgba(6 12 8 / 0%) 100%
+  );
+}
+
+.nav-link {
+  color: rgb(17, 58, 42);
+}
+
+.nav-link.active {
+  font-weight: 600 !important;
+  color: rgb(17, 58, 42) !important;
+}
+
+.nav-item a:hover {
+  color: rgb(17, 58, 42) !important;
+}

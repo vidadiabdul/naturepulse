@@ -1,0 +1,35 @@
+.moodal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 50px;
+  z-index: 10;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  background-color: #0000006c;
+}
+
+.ml-x {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.moodal svg {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+.moodal svg:hover {
+  transform: scale(0.8);
+}
